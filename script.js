@@ -27,21 +27,21 @@ corresponding property and value
 function Model () {
 	this.model = "Element";
 }
-Model.prototype = new Make(); 
 
 
 // What is the prototype of a Model?
 
+Model.prototype = new Make(); 
 
 // Define a Car
 
 function Car () {
 	
 }
-Car.prototype = new Model();
 
 // What is the prototype of a Car?
 
+Car.prototype = new Model();
 
 // Create the first car
 
